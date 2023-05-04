@@ -1,0 +1,598 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 7851 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Administrator/BGS_Interview
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50666
+Successfully changed project path to: C:/Users/Administrator/BGS_Interview
+C:/Users/Administrator/BGS_Interview
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4304] Host "[IP] 192.168.0.42 [Port] 0 [Flags] 2 [Guid] 2789755308 [EditorId] 2789755308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI4ABBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [4304] Host "[IP] 192.168.0.42 [Port] 0 [Flags] 2 [Guid] 2789755308 [EditorId] 2789755308 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BI4ABBU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 91.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/BGS_Interview/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     3925 MB
+    Driver:   31.0.101.3413
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006873 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004923 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\BGS_Interview\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\BGS_Interview\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 88.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.393 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1073ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3734 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.4 KB). Loaded Objects now: 4187.
+Memory consumption went from 142.7 MB to 142.4 MB.
+Total: 3.215400 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.120800 ms MarkObjects: 2.654200 ms  DeleteObjects: 0.152200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64127.470269 seconds.
+  path: Assets/RPG/sBoulder.png
+  artifactKey: Guid(5fe35aab76a7c374ba1ccadc8121fd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sBoulder.png using Guid(5fe35aab76a7c374ba1ccadc8121fd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be80d3d1cfb9d3c2c5344b5265c1542f') in 0.117472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RPG/sShopkeep_strip4.png
+  artifactKey: Guid(85acae5a1a2b29f428b68bd37cd7448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sShopkeep_strip4.png using Guid(85acae5a1a2b29f428b68bd37cd7448e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a429f2eab402d8b49f84da390ee0d1') in 0.019914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG/sPlayerRun_strip32.png
+  artifactKey: Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sPlayerRun_strip32.png using Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893f68a08a22d1b971c5be50fc1481d0') in 0.018657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPG/sHouse.png
+  artifactKey: Guid(3769c32b6820d464eb77ee50a808ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sHouse.png using Guid(3769c32b6820d464eb77ee50a808ebc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb231e9cec71785971a70a94d6638ad') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPG/sRoof.png
+  artifactKey: Guid(615ab60996fd24d47a6c4ea06ce8eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sRoof.png using Guid(615ab60996fd24d47a6c4ea06ce8eac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e763e50250c74fc963cbcb1c9ea303a') in 0.019567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG/sTextBoxBg_strip4.png
+  artifactKey: Guid(a42b668f2077b624da484458d74260ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sTextBoxBg_strip4.png using Guid(a42b668f2077b624da484458d74260ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08201e0fca9e9ce8739b8e5091b010c8') in 0.020223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG/sRock.png
+  artifactKey: Guid(e0b99de62886b934d9ab5c7a802834fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sRock.png using Guid(e0b99de62886b934d9ab5c7a802834fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acccdde131ec3df7e2fd10191a14ef3') in 0.030247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG/sSignpost.png
+  artifactKey: Guid(ac0c34d6ea3bcd343a90eeacc6b57d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sSignpost.png using Guid(ac0c34d6ea3bcd343a90eeacc6b57d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7742528f7497e451c1ed5166ab471d') in 0.017490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG/sTiles.png
+  artifactKey: Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sTiles.png using Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc632cd270a576b786c86b83f805b185') in 0.022850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/RPG/sQuesty_strip4.png
+  artifactKey: Guid(8140c900600912d42b405d0bdf61e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sQuesty_strip4.png using Guid(8140c900600912d42b405d0bdf61e07c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a75e9e2253669c640960393ea213d50') in 0.029130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG/sItemUI_strip4.png
+  artifactKey: Guid(ff61365fd484056499f522362258145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sItemUI_strip4.png using Guid(ff61365fd484056499f522362258145e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e069c16fdd14a6c00d1a0e5b22540f') in 0.018082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG/sShadow.png
+  artifactKey: Guid(7ac80388c80e1a649b0bbe9bf97662ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sShadow.png using Guid(7ac80388c80e1a649b0bbe9bf97662ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e994100e83677e67041b0dd3a7b60f76') in 0.021129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/RPG/sPlant.png
+  artifactKey: Guid(d66ac5fcb8b5a0843bf57b5135a38a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sPlant.png using Guid(d66ac5fcb8b5a0843bf57b5135a38a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ccb9cb28563c3661aacd34d0d099ee') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG/sPlantB.png
+  artifactKey: Guid(9a61e5e7971dc0a48bfec8f750285e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sPlantB.png using Guid(9a61e5e7971dc0a48bfec8f750285e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1763dced381ff8d61bb1ccdfdc17b0b9') in 0.018861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG/sItemUI1.png
+  artifactKey: Guid(e2cee95e5bf4e934c9994e80b8f33412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sItemUI1.png using Guid(e2cee95e5bf4e934c9994e80b8f33412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec52767af293d2111375c9287952fd0') in 0.017069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/RPG/sItemUIBox.png
+  artifactKey: Guid(009ab825f10f60045be6485b280565d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sItemUIBox.png using Guid(009ab825f10f60045be6485b280565d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85afce4777fdf3ead274cc50e9a816b5') in 0.033265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.396426 seconds.
+  path: Assets/RPG/sPlayerRun_strip32.png
+  artifactKey: Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sPlayerRun_strip32.png using Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae364c15407b235f4d5aad265b747db') in 0.020895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.770667 seconds.
+  path: Assets/RPG/sPlayerRun_strip32.png
+  artifactKey: Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/sPlayerRun_strip32.png using Guid(f3803fb89e48b3343899c21d009d108f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959f55c3a97289b5c3d6833f187179c5') in 0.077529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 242.624069 seconds.
+  path: Assets/Characters
+  artifactKey: Guid(4688b7156c63f4446bae556d1fd06560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters using Guid(4688b7156c63f4446bae556d1fd06560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a1e0ede76d5ed61198920efa98ca4a') in 0.013153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.509935 seconds.
+  path: Assets/Characters/Player
+  artifactKey: Guid(17e6638fcb4d3c54789f8b726091d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player using Guid(17e6638fcb4d3c54789f8b726091d3a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d0604143dde445475f29e69fb22036') in 0.010567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.215670 seconds.
+  path: Assets/Characters/Player.prefab
+  artifactKey: Guid(4773caf6b36b4894d8ba243ea7816f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Player.prefab using Guid(4773caf6b36b4894d8ba243ea7816f59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaee5425ef3bd7c0331590c589d3c6e') in 0.078666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 280.897465 seconds.
+  path: Assets/RPG ASSETS/sTiles.png
+  artifactKey: Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/sTiles.png using Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4013534b9b9f6bdc7dd7b9a9e8d7bc0') in 0.013201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.316058 seconds.
+  path: Assets/RPG ASSETS/sTiles.png
+  artifactKey: Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/sTiles.png using Guid(9541a3d082faf4d40b123190418e640d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134d8a8c0e08abc4dd881a9c001eb6f9') in 0.271144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.343514 seconds.
+  path: Assets/RPG ASSETS/Tiles.prefab
+  artifactKey: Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles.prefab using Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6012dafffe62274a304b291420932e') in 0.020924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.898992 seconds.
+  path: Assets/RPG ASSETS/Tiles.prefab
+  artifactKey: Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles.prefab using Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df0dba9f6daa3f3ae8495b9a90eb2e') in 0.145570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.697959 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_0.asset
+  artifactKey: Guid(4f05e42c89a21ad489406ad61ef5ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_0.asset using Guid(4f05e42c89a21ad489406ad61ef5ee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98182b8a13efb7f6a186f82bab08c5eb') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_29.asset
+  artifactKey: Guid(54bcae6ec090d1141acdd521a41a4a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_29.asset using Guid(54bcae6ec090d1141acdd521a41a4a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328e63b7748d3ee16e6df59b1c17a50c') in 0.018273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_44.asset
+  artifactKey: Guid(b0af8675f0bd20d4b8cef7ff3f15974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_44.asset using Guid(b0af8675f0bd20d4b8cef7ff3f15974e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b889d3e036532e68089be309912f27') in 0.021347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_40.asset
+  artifactKey: Guid(ff700fd990b28524389975d51ec88eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_40.asset using Guid(ff700fd990b28524389975d51ec88eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5282b7dfdf6603557ce19c43f0be2a19') in 0.016922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_20.asset
+  artifactKey: Guid(449aef9d2d827324aabd2e9080543afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_20.asset using Guid(449aef9d2d827324aabd2e9080543afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319edf88bdb74603754fae55cea25c90') in 0.026548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_13.asset
+  artifactKey: Guid(73132391c75c0864a9ca26ad1d4cf75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_13.asset using Guid(73132391c75c0864a9ca26ad1d4cf75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017fabfbc55322a5f02b554ab9753fa1') in 0.026485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_32.asset
+  artifactKey: Guid(8af3d258dd4cb0f42851620baa81dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_32.asset using Guid(8af3d258dd4cb0f42851620baa81dc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b05ac58453f51f3c4028b4ca135b3c') in 0.016589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_22.asset
+  artifactKey: Guid(41e98afddb7408e4fbe80a98f6c8d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_22.asset using Guid(41e98afddb7408e4fbe80a98f6c8d53f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f1b4acf3970e941dbdf0ba050b2602') in 0.024362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_2.asset
+  artifactKey: Guid(47d0218173e1bcc4e9a0e90e86e5846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_2.asset using Guid(47d0218173e1bcc4e9a0e90e86e5846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1db22840a68d7015134a2110959732') in 0.017713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_41.asset
+  artifactKey: Guid(d455e3e1f3d83c04d8eba2b0e86b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_41.asset using Guid(d455e3e1f3d83c04d8eba2b0e86b15c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b898ca88d1aee4349e73c26f228ae7') in 0.021083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_31.asset
+  artifactKey: Guid(03317901529b7fb44ac594a11f9a574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_31.asset using Guid(03317901529b7fb44ac594a11f9a574e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d0feb7bade58858303cecf8c0d2c7e') in 0.018566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_21.asset
+  artifactKey: Guid(5afebd3e59c11504d8848cd068851cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_21.asset using Guid(5afebd3e59c11504d8848cd068851cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfb03473e29dd169692500a02134f98') in 0.018997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_33.asset
+  artifactKey: Guid(390a7ee3fb2fe2c42ad169dfffa02762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_33.asset using Guid(390a7ee3fb2fe2c42ad169dfffa02762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942bbbca1f7732765bbf86e0e81b0334') in 0.025817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_10.asset
+  artifactKey: Guid(fa18b724f8583524cbe54cc327365209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_10.asset using Guid(fa18b724f8583524cbe54cc327365209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0095614a29a7026500b7e7bf80b24964') in 0.021348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_5.asset
+  artifactKey: Guid(1e95c0dfe44899840b2d90a2d8af6fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_5.asset using Guid(1e95c0dfe44899840b2d90a2d8af6fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ef13bb3961d0d2281939cfff2fcd61') in 0.029081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_9.asset
+  artifactKey: Guid(0b0a54324ee9bcb42a30ba23141ec580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_9.asset using Guid(0b0a54324ee9bcb42a30ba23141ec580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597c447f49780fbfd2bb3cb50f0eaa86') in 0.025677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_30.asset
+  artifactKey: Guid(a725b9a01609f8743b8d8c8b5d036d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_30.asset using Guid(a725b9a01609f8743b8d8c8b5d036d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac1932852423b2d006e272dff8bf95b') in 0.018118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_36.asset
+  artifactKey: Guid(783fdf6c19d2cc8449a9493628735ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_36.asset using Guid(783fdf6c19d2cc8449a9493628735ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8ed9e6b4fa7a983e3da44e6883b4f3') in 0.029810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_26.asset
+  artifactKey: Guid(0820d01ca3577954fb8aaa71d71016d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_26.asset using Guid(0820d01ca3577954fb8aaa71d71016d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f263cc00003baf5e01bfa153122814d') in 0.020043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_24.asset
+  artifactKey: Guid(033901eaeb66e2343b266d6b3283cefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_24.asset using Guid(033901eaeb66e2343b266d6b3283cefd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f446ac6c216c47afab6b1f3fabfb3c37') in 0.022692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_37.asset
+  artifactKey: Guid(52262539054ffcd44bae857def8cbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_37.asset using Guid(52262539054ffcd44bae857def8cbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6731531d9a893ec42796c841046132e5') in 0.020265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_12.asset
+  artifactKey: Guid(187493944bf215847ab8b53455024f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_12.asset using Guid(187493944bf215847ab8b53455024f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be8aea21d6737087487f19388f58be6e') in 0.021126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_43.asset
+  artifactKey: Guid(f65535cf11dd77745b292f00c75e6993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_43.asset using Guid(f65535cf11dd77745b292f00c75e6993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06e86351d0bec55d39f905608841277') in 0.031854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_1.asset
+  artifactKey: Guid(462706b84cae531459fae2aeaa7ebc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_1.asset using Guid(462706b84cae531459fae2aeaa7ebc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86700a117e0f518351e791ea0ed1ccc0') in 0.025082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_4.asset
+  artifactKey: Guid(89892f913aa1eb747a317e901525d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_4.asset using Guid(89892f913aa1eb747a317e901525d57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f92c2115dd3b96e1dc8f5cd7c3311') in 0.021672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_38.asset
+  artifactKey: Guid(7aef6ec3c7dcfcd438f13df6825c24c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_38.asset using Guid(7aef6ec3c7dcfcd438f13df6825c24c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67edd1abdfae7ee40070c5379ac66d5') in 0.020914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_19.asset
+  artifactKey: Guid(563bd85a14bb7c9448500fad045d93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_19.asset using Guid(563bd85a14bb7c9448500fad045d93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b493dcb452e1b895eae9a4300f3ea4cc') in 0.034436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_3.asset
+  artifactKey: Guid(b0ecd7fa3f1f7104d93ceaf659798134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_3.asset using Guid(b0ecd7fa3f1f7104d93ceaf659798134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b768ac32fa48333163eec2b6e0f72e') in 0.024318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_27.asset
+  artifactKey: Guid(304970e826293f542adaa43570b8bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_27.asset using Guid(304970e826293f542adaa43570b8bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1122db01ffb06ed72ae582e6e9f915') in 0.024461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_14.asset
+  artifactKey: Guid(ae3da630b2d49144cb850b91189dbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_14.asset using Guid(ae3da630b2d49144cb850b91189dbeb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6441a24199805109bd92f910dd7bf6') in 0.018085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_34.asset
+  artifactKey: Guid(9002fd0384acda144ae081c400e0d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_34.asset using Guid(9002fd0384acda144ae081c400e0d536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0331a815b4a0cbfc6ec7a83d9ec897d6') in 0.018158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_35.asset
+  artifactKey: Guid(b63941d012611f647a676d62e5a9370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_35.asset using Guid(b63941d012611f647a676d62e5a9370e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba091c2d1585fd8ad60e39a3c871d2a5') in 0.028156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_28.asset
+  artifactKey: Guid(e2ead167d67d3e842adf118a1e3dd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_28.asset using Guid(e2ead167d67d3e842adf118a1e3dd70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85857dae6d97af1e622b140ff15f0108') in 0.023190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_11.asset
+  artifactKey: Guid(1352c8a8158d71f44b838f088529cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_11.asset using Guid(1352c8a8158d71f44b838f088529cfbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90514e973b19faad0b951b40087e986') in 0.025040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_39.asset
+  artifactKey: Guid(b1b115a99e8969a47b58bb782499fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_39.asset using Guid(b1b115a99e8969a47b58bb782499fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d2f812fc6ee7540e869a71a5a8c64d') in 0.019366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_8.asset
+  artifactKey: Guid(71e5afaa9382100468ce7ba1f35ecef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_8.asset using Guid(71e5afaa9382100468ce7ba1f35ecef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13c8cd6e6ac89f24068ccf375983a7e') in 0.019589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_16.asset
+  artifactKey: Guid(496291d4691b7ab49acef8bce068bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_16.asset using Guid(496291d4691b7ab49acef8bce068bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622eb72931e720d756abe30385c2abd8') in 0.020016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_25.asset
+  artifactKey: Guid(dc533e9f684ed2b4ea3a09a771d36f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_25.asset using Guid(dc533e9f684ed2b4ea3a09a771d36f7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2334d3eaaa82b8fe9a121dc74052ad9') in 0.026669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_18.asset
+  artifactKey: Guid(43a532b56eb07004391a5120de892113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_18.asset using Guid(43a532b56eb07004391a5120de892113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d505efb9cf063db33fa86874a1e4701') in 0.023500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_23.asset
+  artifactKey: Guid(80b1897f5d1436c4b8881d49e3fae896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_23.asset using Guid(80b1897f5d1436c4b8881d49e3fae896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10755ef3dadfa0bb1cf5f665c6e4cd8f') in 0.020800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_7.asset
+  artifactKey: Guid(2f9abdb7a433c61469127749af94b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_7.asset using Guid(2f9abdb7a433c61469127749af94b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1172ba413cdb211a707bec8e95a46a27') in 0.016570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_6.asset
+  artifactKey: Guid(f61142fae7856614d8ce3b344c94242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_6.asset using Guid(f61142fae7856614d8ce3b344c94242c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e591544c0fb942b5cede09a8b8a2b815') in 0.019534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_42.asset
+  artifactKey: Guid(c137f5dba31c37f4394db90674ecae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_42.asset using Guid(c137f5dba31c37f4394db90674ecae27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4668dd9cf13955948eda07fffbe6c8f1') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_15.asset
+  artifactKey: Guid(f634e18e0f2d0b8418b84b8a52fa08a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_15.asset using Guid(f634e18e0f2d0b8418b84b8a52fa08a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75018473c4aac44d066e88ad4ec98541') in 0.025062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/RPG ASSETS/Tiles/sTiles_17.asset
+  artifactKey: Guid(1f37b582b45c1684d9d7253efe6174e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles/sTiles_17.asset using Guid(1f37b582b45c1684d9d7253efe6174e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408506e14b9968109c64e7b5433e4e6d') in 0.023843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1849.729455 seconds.
+  path: Assets/RPG ASSETS/Tiles.prefab
+  artifactKey: Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles.prefab using Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6782c26d4c674a05155e2053c62814c') in 0.092976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 701.299995 seconds.
+  path: Assets/RPG ASSETS/Tiles.prefab
+  artifactKey: Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG ASSETS/Tiles.prefab using Guid(d1c8b0fe79e7951419dca98b2202bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30d8db0280e5a899b570ebdbc26224e') in 0.063974 seconds 
