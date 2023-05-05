@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
+    private float lastHorizontal;
+    private float lastVertical;
     public ContactFilter2D movementFilter;
     Vector2 movementInput;
     SpriteRenderer spriteRenderer;
@@ -25,35 +27,53 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
-    void FixedUpdate(){
-        if(movementInput != Vector2.zero){
+
+    void FixedUpdate()
+    {
+        if (movementInput != Vector2.zero)
+        {
             int count = rb.Cast(movementInput, movementFilter, castCollisions, moveSpeed * Time.fixedDeltaTime + collisionOffset);
 
-            if(count == 0){
+            if (count == 0)
+            {
                 rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
             }
-            
+
             animator.SetBool("isMoving", true);
 
+            // Store the last non-zero movement direction
+            if (movementInput.x != 0 || movementInput.y != 0)
+            {
+                lastHorizontal = movementInput.x;
+                lastVertical = movementInput.y;
+            }
         }
-        else{
+        else
+        {
             animator.SetBool("isMoving", false);
         }
 
-        //set direction of sprite to movement direction
-        if(movementInput.x < 0){
-            spriteRenderer.flipX = true;
-        }
-        else if (movementInput.x > 0){
-            spriteRenderer.flipX = false;
-        }
-        
+        // Set the Horizontal, Vertical, LastHorizontal, and LastVertical parameters based on movement input
+        animator.SetFloat("Horizontal", movementInput.x);
+        animator.SetFloat("Vertical", movementInput.y);
+        animator.SetFloat("LastHorizontal", lastHorizontal);
+        animator.SetFloat("LastVertical", lastVertical);
     }
 
-    void OnMove(InputValue movementValue){
+
+
+
+
+
+
+    void OnMove(InputValue movementValue)
+    {
         movementInput = movementValue.Get<Vector2>();
     }
 }
+
+
+
