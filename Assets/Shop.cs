@@ -6,14 +6,22 @@ public class Shop : MonoBehaviour
 {
     public Item[] itemsForSale;
 
-    public void BuyItem(Item item, Inventory playerInventory)
+    public bool BuyItem(Item item, Inventory playerInventory, Currency playerCurrency)
     {
-        playerInventory.AddItem(item);
+        if (playerCurrency.gold >= item.price)
+        {
+            playerInventory.AddItem(item);
+            playerCurrency.RemoveGold(item.price);
+            return true;
+        }
+        return false;
     }
 
-    public void SellItem(Item item, Inventory playerInventory)
+    public void SellItem(Item item, Inventory playerInventory, Currency playerCurrency)
     {
         playerInventory.RemoveItem(item);
+        playerCurrency.AddGold(item.price);
     }
 }
+
 

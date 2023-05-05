@@ -21,4 +21,9 @@ public class ShopkeeperInteraction : MonoBehaviour
             shopUI.SetActive(false);
         }
     }
+
+    public void CloseShop()
+    {
+        shopUI.SetActive(false);
+    }
 }
