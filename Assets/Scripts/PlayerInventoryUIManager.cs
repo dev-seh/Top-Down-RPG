@@ -18,11 +18,11 @@ public class PlayerInventoryUIManager : MonoBehaviour
     private void Awake()
     {
         hotkeyItems = new Item[4];
+        playerInventory.OnItemChanged += UpdatePlayerInventoryUI;
     }
 
     private void Start()
     {
-        playerInventory.OnItemChanged += UpdatePlayerInventoryUI;
         UpdatePlayerInventoryUI(null);
     }
 
@@ -62,6 +62,7 @@ public class PlayerInventoryUIManager : MonoBehaviour
         playerInventory.RemoveItemFromHotkeyInventory(item);
         UpdatePlayerInventoryUI(item);
         FindObjectOfType<ShopUIManager>().PopulateShop();
+        FindObjectOfType<HotkeyInventoryUIManager>().UpdateHotkeyInventoryUI(item);
     }
 
     

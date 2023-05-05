@@ -6,28 +6,36 @@ using UnityEngine.UI;
 public class HotkeyInventoryUIManager : MonoBehaviour
 {
     public Inventory playerInventory;
-    public Image[] hotkeyItemImages;
+    public Button[] hotkeyItemButtons;
+    public Image[] hotkeyItemIconImages;
 
-    private void Start()
+    private void Awake()
     {
         playerInventory.OnItemChanged += UpdateHotkeyInventoryUI;
         UpdateHotkeyInventoryUI(null);
     }
-
-    private void UpdateHotkeyInventoryUI(Item item)
+    
+    private void Start()
     {
-        for (int i = 0; i < hotkeyItemImages.Length; i++)
+        UpdateHotkeyInventoryUI(null);
+    }
+
+    public void UpdateHotkeyInventoryUI(Item item)
+    {
+        for (int i = 0; i < hotkeyItemIconImages.Length; i++)
         {
             if (playerInventory.hotkeyItems[i] != null)
             {
-                hotkeyItemImages[i].sprite = playerInventory.hotkeyItems[i].icon;
-                hotkeyItemImages[i].enabled = true;
+                hotkeyItemIconImages[i].sprite = playerInventory.hotkeyItems[i].icon;
+                hotkeyItemIconImages[i].enabled = true;
             }
             else
             {
-                hotkeyItemImages[i].enabled = false;
+                hotkeyItemIconImages[i].enabled = false;
             }
         }
     }
+
+
 }
 

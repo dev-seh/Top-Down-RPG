@@ -50,6 +50,8 @@ public class Inventory : MonoBehaviour
             if (hotkeyItems[i] == null)
             {
                 hotkeyItems[i] = item;
+                Debug.Log("Item " + item.itemName + " added to hotkey slot " + (i + 1));
+                OnItemChanged?.Invoke(item);
                 return true;
             }
         }
@@ -62,6 +64,7 @@ public class Inventory : MonoBehaviour
         if (index != -1)
         {
             hotkeyItems[index] = null;
+            OnItemChanged?.Invoke(item);
         }
     }
 
