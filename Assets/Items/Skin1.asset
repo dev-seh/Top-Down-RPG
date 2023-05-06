@@ -16,3 +16,5 @@ MonoBehaviour:
   price: 40
   icon: {fileID: 21300000, guid: 8c4f9815fee6dd74b9d7bfebdce81c4b, type: 3}
   equippedSprite: {fileID: 1613786968, guid: 920b2162b991ab541b77f30a4f2cd145, type: 3}
+  itemType: 1
+  skinLayerIndex: 1
